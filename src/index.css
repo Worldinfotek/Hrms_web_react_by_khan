@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.dept-node {
+  width: 100%;
+  min-height: 28px;
+}
+.lookup-type-item:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
